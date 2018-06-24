@@ -38,6 +38,8 @@ function toWeirdCase(string) {
   })
 
   //join the array with a space, and return a string of the array
+
+  //all together
   console.log(newArr.join(' '))
   return newArr.join(' ')
 
