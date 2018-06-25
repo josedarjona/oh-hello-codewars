@@ -29,3 +29,34 @@ function deleteNth(arr,n){
   })
     return theAns;
 }
+
+
+//2 favorite solutions
+//use of filter for both, just written differently
+// function deleteNth(arr,x){
+
+//   const count = {};
+  
+//   return arr.filter(function(n){
+  
+//     if(count[n])
+//       count[n] += 1
+//     else
+//       count[n] = 1;
+      
+//     if(count[n] <= x)
+//       return true;
+//     else 
+//       return false;
+//   });
+// }
+
+//other one:
+//
+// function deleteNth(arr,x) {
+//   var cache = {};
+//   return arr.filter(function(n) {
+//     cache[n] = (cache[n]||0) + 1;
+//     return cache[n] <= x;
+//   });
+// }
