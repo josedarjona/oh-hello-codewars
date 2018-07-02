@@ -3,7 +3,7 @@ function rowSumOddNumbers(n) {
 console.log(n)
   
 const tempArr = []
-
+//pattern i saw, this gives the last value of the line
 let endValue = (n * (n+1) - 1)
 
 console.log('end value', endValue)
