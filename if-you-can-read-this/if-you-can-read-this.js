@@ -49,7 +49,7 @@ function to_nato(words) {
   //loop through the wordsarr, and for each letter, check it matches a value
   //if it does, change it to that, if not a space, but it isnt undefined, push that char into the 
   //the wordsarr (ie: !?,./ etc) had this part failing for a bit
-  wordsArr.map(char => {
+  wordsArr.map(char => { 
       if (char !== " ") {
         val = phonAlph[char];
         if (val !== undefined){
