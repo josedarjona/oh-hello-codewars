@@ -45,4 +45,16 @@ function tribonacci(signature,n){
 
 }
 
+//practice reduce, practice reduce, practice reduce!! and filter some more too.
+
+// function tribonacci(signature, n) {
+//   while(signature.length < n) {
+//     signature.push(signature.slice(-3).reduce(sum));
+//   }
+//   return signature.slice(0, n);
+// }
+
+// function sum(a, b) { return a + b }
+
+
 
