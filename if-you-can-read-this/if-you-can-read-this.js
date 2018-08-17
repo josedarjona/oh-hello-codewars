@@ -77,3 +77,20 @@ function to_nato(words) {
 //     .map(c => table[c.toUpperCase()] || c)
 //     .join(' ');
 // }
+
+
+//learn to use this more effectively
+
+//the one liner solution after posting mine that i liked most
+//
+// function to_nato(words) {
+//   return words.split('').filter(c => c !== ' ').map(c => table[c.toUpperCase()] || c).join(' ');
+// }
+//would probably space it out this way - just to read it better
+// function to_nato(words) {
+//   return words
+//     .split('')
+//     .filter(c => c !== ' ')
+//     .map(c => table[c.toUpperCase()] || c)
+//     .join(' ');
+// }
