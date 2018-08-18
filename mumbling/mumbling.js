@@ -35,3 +35,12 @@ function accum(s) {
   return emptyArr.join("-")
   
 }
+
+
+
+//my favorite one line answer and it makes a ton of sense.
+
+
+//function accum(s) {
+//   return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');
+// }
