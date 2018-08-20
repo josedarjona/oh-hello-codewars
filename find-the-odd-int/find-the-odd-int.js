@@ -17,4 +17,8 @@ return ans
 }
 
 
-///
+///the one liner i understood the most, and was very simple
+
+// function findOdd(arr) {
+//   return arr.find((item, index) => arr.filter(el => el == item).length % 2)
+// }
