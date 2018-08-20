@@ -14,3 +14,5 @@ function getMiddle(s)
   
   return ans
 }
+
+//find a simpler solution, although this one is really readable
