@@ -16,3 +16,15 @@ numberSort = function (a,b) {
  
   return x
 }
+
+
+
+
+
+////
+
+// couldve done it all in the return
+
+// function flattenAndSort(array) {
+//   return [].concat(...array).sort((a,b) => a - b);
+// }
