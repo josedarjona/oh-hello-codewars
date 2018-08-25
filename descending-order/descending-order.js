@@ -20,3 +20,11 @@ function descendingOrder(n) {
   
   
 }
+
+
+//with objcts, nice lesson
+//var obj = getWordFrequency(words);
+//var array = Object.keys(obj).map(function(key){
+//     return {word: key, count: obj[key]};
+//});
+//array.sort(function (a,b){ return b.count - a.count});
