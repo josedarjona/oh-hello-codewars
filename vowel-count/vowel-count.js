@@ -33,3 +33,32 @@ function getCount(str) {
   
 //   return vowelsCount;
 // }
+
+//practice ternary
+
+// function getCount(str) {
+//   var vowelsCount = 0;
+//   vowelsCount = str.match(/[aeiou]/gi);
+//   return vowelsCount ? vowelsCount.length:0;
+// }
+
+
+//switch/case always a possibility
+
+// function getCount(str) {
+//   var vowelsCount = 0;
+//   for (index in str){
+//     switch (str[index]) {
+//     case 'a':
+//     case 'e':
+//     case 'i':
+//     case 'o':
+//     case 'u':
+//     vowelsCount++;
+//     break;
+//     }   
+//   }
+//   return vowelsCount;
+// }
+
+
