@@ -20,3 +20,10 @@ function digital_root(n) {
    return parseInt(theN)
   
 }
+
+
+//with just math 
+
+// function digital_root(n) {
+//   return (n - 1) % 9 + 1;
+// }
