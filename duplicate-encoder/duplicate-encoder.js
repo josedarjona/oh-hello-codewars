@@ -50,3 +50,31 @@ return finArr.join("")
 //   }
 //   return newString;
 // }
+
+
+//using object as a cache
+
+
+// function duplicateEncode(word){
+//   const cache = {};
+//   let res = '';
+  
+//   for (let i = 0; i < word.length; i++) {
+//     const char = word[i].toLowerCase();
+    
+//     if (char in cache) {
+//       res += ')';
+//       continue;
+//     }
+    
+//     cache[char] = true;
+    
+//     if (word.toLowerCase().indexOf(char, i + 1) !== -1) {
+//       res += ')';
+//     } else {
+//       res += '(';
+//     }
+//   }
+  
+//   return res;
+// }
