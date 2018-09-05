@@ -31,3 +31,22 @@ console.log(counter, finArr)
 return finArr
   
 }
+
+
+//practice reduce!!
+
+
+//function parse(data) {
+//   let res = [];
+
+//   data.split('').reduce((cur, s) => {
+//     if (s === 'i') cur++;
+//     if (s === 'd') cur--;
+//     if (s === 's') cur = Math.pow(cur, 2);
+//     if (s === 'o') res.push(cur);
+    
+//     return cur;
+//   }, 0);
+  
+//   return res;
+// }
