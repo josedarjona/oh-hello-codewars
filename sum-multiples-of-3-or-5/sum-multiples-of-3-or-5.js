@@ -20,3 +20,10 @@ for (var i = 0; i < number; i++){
 
 return total;  
 }
+
+//practice ternary
+//solution = n => {
+//   let s = 0;
+//   for (let i = 0; i < n; i++) s += i % 3 ? i % 5 ? 0 : i : i;
+//   return s;
+// }
